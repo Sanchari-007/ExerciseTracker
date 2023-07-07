@@ -1,0 +1,124 @@
+/* Global styles */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(159, 241, 123);
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  input[type='text'],
+  input[type='number'] {
+    width :75%;
+    padding: 15px;
+    margin: 5px 0px 22px 0px;
+    display:inline-block;
+    border: none;
+    background: beige;
+  }
+  input[type='text']:focus,
+  input[type='number']:focus {
+    background-color:white ;
+    outline:none;
+  }
+  .add{
+    background-color:rgb(55, 35, 6);
+    color:blanchedalmond;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin:auto;
+    opacity:0.8%;
+}
+.add.hover {
+    opacity: 1;
+}
+
+  /* Navigation styles */
+  nav {
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Main content styles */
+  main {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Exercise list styles */
+  .exercise-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .exercise-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .exercise-list li:hover {
+    background-color: #eee;
+  }
+  
+  .exercise-list li h3 {
+    margin: 0;
+  }
+  
+  .exercise-list li p {
+    margin: 0;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
