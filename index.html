@@ -4,19 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercise Tracker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class='container'>
     <h1>Exercise & Calorie Tracker</h1>
-    <h3>Exercise Calories Burnt</h3>
+    <h2>Exercise Calories Burnt</h2>
+    <hr/>
     <div id="Values"></div>
-    <form id ='articleForm'>
-        <input type="text" name="fname" value="Exercise">
-        <input type="text" name="lname" value="Calories burnt"><br>
-        <button id="add">Add</button>
+    <form action="">
+        <label for="fn"><b>Exercise Name</b></label>
+        <input type="text" placeholder="Exercise" name='fn' id='fn' required/>
+        <br>
+        <label for="text"><b>Calories Burnt</b></label>
+        <input type="number" placeholder="Calories" name='psw' id='psw' required/>
+    <hr/>
+    <button class='add' type='submit'>ADD</button>
     </form>
     </div>
-   
+    </div>
 
 </body>
 </html>
